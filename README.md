@@ -1,8 +1,23 @@
-# Hack NY 2018
-Aim: To help students in studying for school while occupied in transit or other activities such as chores. A college student’s schedule can be specially packed, so it is essential to maximize their study time throughout the day. From traveling in public transportation to eating dinner or doing chores, a large portion of a student’s day goes to waste when it could be better spent studying.
+# HackNY Hackathon
+https://devpost.com/software/autoquiz-d2v06g
 
-We created an app to address this dilemma by using voice recognition and prompting the user for a quiz on a certain subject of their choosing. This simple yet innovative app comes with preprogrammed tests on U.S. capitals, law, and general trivia and can process quizzes of a student’s choosing through a quick insert of a Quizlet link. Our app parses the URL and verbalizes the questions and answers while asking for the student’s input in between. The voice recognition in both the input and output via a Bluetooth device provides a convenient form of studying anywhere and anytime.
+# Inspiration
+Many students today suffer from poor study habits due to time constraints. We live in an era where everyone benefits from different learning styles, where auditory-oriented students are struggling to find options in ways to study. Whether you’re commuting on the crowded subway or traveling through Central Park, you will find this app makes the most efficient use of your time.
 
-Our product not only targets busy college students but is also a perfect fit for auditory learners and anyone who benefits from learning through repetition. It is quick and automatic, and very convenient – it is AutoQuiz.
+# What it does
+To address occupied college students, we introduce an improved, autonomous mobile app that takes a simple URL input and parses the information to create a personal quiz. It is a flexible, integrated voice recognition app that prompts the user for a pre-programmed or customized quiz on a certain subject.
 
-Designed by Bakhtiyorjon Rasulov, Faizan Ahmed, Francis Gold Sy, Kevin Chen, and Davron Ochilov, first-time freshmen hackathon-ers from different universities ranging from New York University to Queens College.
+# How we built it
+We used Android Studios and java to build AutoQuiz. We first started by building the backend algorithms like scraping quizlet to find the questions and answers for our quizzes. After that, we worked on the graphics and front end.
+
+# Challenges we ran into
+Scraping the website through the app. We made the scraper for a personal computer however we noticed that it wont work on the android app. We had a big setback however we were able to overcome the problem after hours of research and learning.
+
+# Accomplishments that we're proud of
+Ability to use custom quizzes from quizlet by entering a URL and automatically scraping the website through the mobile platform Android Studios.
+
+# What we learned
+Creating android apps. Making android apps opened a lot of opportunities for us Using Android Studio to explore a new world of app development, opening a new world of opportunities
+
+# What's next for AutoQuiz
+Implementing and improving more functions such as UI and the application database. We aim to make the app more aesthetically pleasing and to create an overall reactive user interface. In time, we plan to implement machine learning to taylor quizzes to the user’s strengths and weaknesses. Lastly, we wish to expand to more websites other than Quizlet to diversify user learning.
